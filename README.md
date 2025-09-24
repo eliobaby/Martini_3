@@ -26,7 +26,14 @@ This framework automates that entire process. It uses a sophisticated, rule-base
 ## Installation
 
 This project relies on **RDKit** for processing chemical structures.  
-The recommended way to set up the environment is by using **Anaconda/Miniconda**.
+The recommended way to set up the environment is by using **Anaconda**.
+
+If you don’t already have Anaconda installed, you can download it here:  
+[Install Anaconda](https://docs.anaconda.com/free/anaconda/install/)
+
+---
+
+### Setup Steps
 
 ```bash
 # Clone the repository
@@ -41,11 +48,6 @@ conda activate martini_mapper
 
 # Install RDKit
 conda install -c conda-forge rdkit
-```
-
-You are now ready to run the mapping algorithm.
-
----
 
 ## Usage
 
